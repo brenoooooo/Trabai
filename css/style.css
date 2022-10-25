@@ -1,0 +1,188 @@
+header{
+    padding: 30px 0px;
+}
+
+body{
+    font-family: 'Arial';
+    font-weight: 400px;
+}
+
+.container{
+    width: 1200px;     
+    margin: 0px auto;  
+}
+
+.flex{
+    display: flex;
+    flex-direction: row; /* Direção dos box na horizontal */
+    flex-wrap: wrap;
+}
+
+header .flex{
+    justify-content: space-between;
+
+}
+.carrinho img{
+    float: left;
+}
+
+.carrinho a{
+    color: #202020;
+    text-decoration: none;
+    float: right;
+    margin: 5px 0px 0px 10px;
+
+}
+
+
+nav{
+    background-color: #202020;
+    padding: 20px 10px;
+}
+
+.container-menu{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav .flex{
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    height: 550px;
+}
+
+.lancamentos{
+    padding: 70px 0px;
+}
+
+.texts {
+    padding: 0px 10px;
+    margin: 30px 0px;
+}
+
+.texts h4{
+    font-size: 44px;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+.texts h2{
+    font-size: 18px;
+    
+}
+
+.texts h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.produto{
+    text-align: center;
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin: 5px;
+    padding-bottom: 50px;
+}
+
+.produtos-menor{
+    display: flex;
+}
+
+.produto-menor{
+    text-align: center;
+    border: 1px solid black;
+    width: 165px;
+    height: 165px;
+    margin: -4px -4px 0px 6px;
+    padding-bottom: 50px;
+}
+
+.produto h4{
+    font-size: 18px;   
+}
+
+.produto h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.texts button{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: orangered;
+    padding: 30px 70px;
+    margin: 30px 0px;
+    color: #fff ;
+}
+
+.off{
+    padding: 70px 0px 0px 0px;
+}
+
+.cor{
+    color: orange;
+}
+
+.av-back{
+    width: 1190px;
+    height: 500px;
+    background-color: #F4F2F0;
+    margin: 48px 9px;
+}
+
+.av-back h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: orangered;
+    padding: 100px 90px;
+}
+
+.av-back .image-av{
+    margin: -90px 90px;
+}
+
+.av-back .text-av{
+    margin: -90px 290px;
+}
+
+.av-back h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.av-back h3{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 0px;
+}
+
+.av-back h4{
+    font-size: 22px;
+}
+
+.rodape{
+    display: flex;  
+    background-color: #202020; 
+    padding: 70px;
+    color: orangered;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 342px;
+}
+
+.color{
+    color: #fff;
+}
+
